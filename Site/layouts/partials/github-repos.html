@@ -1,0 +1,13 @@
+{{ $repos := getJSON "https://api.github.com/users/NebelNite/repos" }}
+{{ if $repos }}
+  <ul>
+    {{ range $repos }}
+      <li>
+        <a href="{{ .html_url }}" target="_blank">{{ .name }}</a>
+        <p>{{ .description }}</p>
+      </li>
+    {{ end }}
+  </ul>
+{{ else }}
+  <p>No repositories found.</p>
+{{ end }}

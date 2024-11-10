@@ -6,14 +6,28 @@
     <description>Recent content on Jonas B</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Nov 2024 13:13:46 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 10 Nov 2024 22:37:16 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example</title>
-      <link>http://localhost:1313/post/title_of_the_post/</link>
-      <pubDate>Sun, 10 Nov 2024 13:08:33 +0100</pubDate>
-      <guid>http://localhost:1313/post/title_of_the_post/</guid>
-      <description></description>
+      <title>About Me</title>
+      <link>http://localhost:1313/post/aboutme/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/aboutme/</guid>
+      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;&#xA;&lt;h2 id=&#34;personal-information&#34;&gt;Personal Information&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: Jonas B.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Date of Birth&lt;/strong&gt;: January 29, 2005&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Place of Birth&lt;/strong&gt;: Zell am See, Austria&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;HTL&lt;/strong&gt;: Higher Technical School Sankt Johann im Pongau&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;General Secondary School&lt;/strong&gt;: Middle School Kaprun&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>My GitHub Repositories</title>
+      <link>http://localhost:1313/post/repos/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/repos/</guid>
+      <description>&lt;h1 id=&#34;my-github-repositories&#34;&gt;My GitHub Repositories&lt;/h1&gt;&#xA;&lt;p&gt;Here are some of the repositories I contributed to during my academic career:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/NebelNite/M-Bot&#34;&gt;M-Bot&lt;/a&gt; - A bot for various services and platforms.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/NebelNite/Passwortmanager&#34;&gt;Passwortmanager&lt;/a&gt; - A simple password manager.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/NebelNite/NebelNite.github.io&#34;&gt;NebelNite.github.io&lt;/a&gt; - The source for my personal website.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>My Skills</title>
+      <link>http://localhost:1313/post/skills/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/skills/</guid>
+      <description>&lt;h1 id=&#34;my-skills&#34;&gt;My Skills&lt;/h1&gt;&#xA;&lt;h2 id=&#34;programming-languages&#34;&gt;Programming Languages&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;C&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;HTML/CSS&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Java&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Kotlin&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;frameworks--libraries&#34;&gt;Frameworks &amp;amp; Libraries&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Node.js&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Express&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;jQuery&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;databases&#34;&gt;Databases&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;SQL&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;MongoDB&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;PostgreSQL&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tools--platforms&#34;&gt;Tools &amp;amp; Platforms&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Git &amp;amp; GitHub&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;VS Code&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;VS 2022&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Postman&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Android Studio&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;other-technologies&#34;&gt;Other Technologies&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;RESTful APIs&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
