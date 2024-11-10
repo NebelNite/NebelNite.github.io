@@ -76,7 +76,7 @@ function monthly(year, month, posts) {
   );
   let liHtml = '';
   for (const post of monthPosts) {
-    liHtml += `<li class="ml-0 py-1 d-flex ">
+    liHtml += `<li class="ml-0 py-1 d-flex">
     <div
       class="col-8 css-truncate css-truncate-target lh-condensed width-fit flex-auto min-width-0">
       <a href="${post.link}">${post.title}</a>
