@@ -1,15 +1,17 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://nebelnite.github.io/'
 languageCode = 'en-us'
 title = 'Jonas B'
 lastmod = true
 enableGitalk = true
 
+
 [params]
   author = "Jonas B"
   github = "NebelNite"
+  enableGithubFollowers = true
   email = "jonas.bogensberger@htl-saalfelden.at"
-  keywords = "blog, google analytics"
   rss = true
+  url = "nebelnite.github.io"
   lastmod = true
   userStatusEmoji = "😀"
   favicon = "/images/github.png"
@@ -17,19 +19,21 @@ enableGitalk = true
   headerIcon = "/images/GitHub-Mark-Light-32px.png"
   location = "Austria"
   enableGitalk = true
+  github_repos = true
 
   [params.gitalk]
-    clientID = "Your client ID"
-    clientSecret = "Your client secret"
-    repo = "repo"
-    owner = "MeiK2333"
-    admin = "MeiK2333"
+    clientID = "$GITALK_CLIENT_ID"
+    clientSecret = "$GITALK_CLIENT_SECRET"
+    repo = "NebelNite.github.io"
+    owner = "NebelNite"
+    admin = "NebelNite"
     id = "location.pathname"
     labels = "gitalk"
     perPage = 15
     pagerDirection = "last"
     createIssueManually = true
     distractionFreeMode = false
+    proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"
 
   [[params.links]]
     title = "Link"
@@ -37,6 +41,7 @@ enableGitalk = true
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
+
 
 
 
