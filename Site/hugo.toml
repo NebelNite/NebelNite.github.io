@@ -19,7 +19,7 @@ enableGitalk = true
   headerIcon = "/images/GitHub-Mark-Light-32px.png"
   location = "Austria"  
   enableGitalk = true
-  github_repos = true 
+  github_repos = true
 
   
 
