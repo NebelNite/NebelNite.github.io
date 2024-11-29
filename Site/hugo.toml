@@ -17,15 +17,15 @@ enableGitalk = true
   favicon = "/images/github.png"
   avatar = "/images/avatar.png"
   headerIcon = "/images/GitHub-Mark-Light-32px.png"
-  location = "Austria"
+  location = "Austria"  
   enableGitalk = true
   github_repos = true 
 
   
 
   [params.gitalk]
-    clientID = "{{ getenv "GITALK_CLIENT_ID" }}"
-    clientSecret = "{{ getenv "GITALK_CLIENT_SECRET" }}"
+    clientID = "{{ getenv \"GITALK_CLIENT_ID\" }}"
+    clientSecret = "{{ getenv \"GITALK_CLIENT_SECRET\" }}"
     repo = "NebelNite.github.io"
     owner = "NebelNite"
     admin = "NebelNite"
