@@ -24,8 +24,8 @@ enableGitalk = true
   
 
   [params.gitalk]
-    clientID = "{{ getenv \"GITALK_CLIENT_ID\" }}"
-    clientSecret = "{{ getenv \"GITALK_CLIENT_SECRET\" }}"
+    clientID = "{{ getenv "GITALK_CLIENT_ID" }}"
+    clientSecret = "{{ getenv "GITALK_CLIENT_SECRET" }}"
     repo = "NebelNite.github.io"
     owner = "NebelNite"
     admin = "NebelNite"
