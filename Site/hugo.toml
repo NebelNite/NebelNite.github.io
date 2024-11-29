@@ -24,8 +24,8 @@ enableGitalk = true
   
 
   [params.gitalk]
-    clientID = "GITALK_CLIENT_ID"
-    clientSecret = "GITALK_CLIENT_SECRET"
+    clientID = "{{ getenv 'GITALK_CLIENT_ID' }}"
+    clientSecret =  "{{ getenv 'GITALK_CLIENT_SECRET' }}"
     repo = "NebelNite.github.io"
     owner = "NebelNite"
     admin = "NebelNite"
@@ -35,7 +35,9 @@ enableGitalk = true
     pagerDirection = "last"
     createIssueManually = true
     distractionFreeMode = false
-
+    createIssueManually = false
+    proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"
+      
   [[params.links]]
     title = "Link"
     href = "https://github.com/NebelNite"
