@@ -45,6 +45,13 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+
+      - name: Set up GitHub Secrets for Gitalk
+        run: |
+          echo "GITALK_CLIENT_ID=${{ secrets.GITALK_CLIENT_ID }}" >> $GITHUB_ENV
+          echo "GITALK_CLIENT_SECRET=${{ secrets.GITALK_CLIENT_SECRET }}" >> $GITHUB_ENV
+
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
