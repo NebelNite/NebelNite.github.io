@@ -33,9 +33,8 @@ enableGitalk = true
     labels = "gitalk"
     perPage = 15
     pagerDirection = "last"
-    createIssueManually = true
-    distractionFreeMode = false
     createIssueManually = false
+    distractionFreeMode = false
     proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"
       
   [[params.links]]
