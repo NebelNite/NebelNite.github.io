@@ -5,8 +5,11 @@
     <loc>http://localhost:1313/post/aboutme/</loc>
     <lastmod>2024-11-29T07:54:46+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/post/contactform/</loc>
+    <lastmod>2024-12-20T07:49:48+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-29T08:47:00+01:00</lastmod>
+    <lastmod>2024-12-20T07:49:48+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/repos/</loc>
     <lastmod>2024-11-29T07:54:46+01:00</lastmod>
@@ -15,7 +18,7 @@
     <lastmod>2024-11-29T07:54:46+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2024-11-29T08:47:00+01:00</lastmod>
+    <lastmod>2024-12-20T07:49:48+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/files/</loc>
     <lastmod>2024-11-29T08:47:00+01:00</lastmod>
