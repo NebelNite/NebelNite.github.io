@@ -157,9 +157,9 @@ Your Name:Your Email:Your Message:Send Message
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Fri, 20 Dec 2024 07:49:48 &#43;0100"
+                  Modified <relative-time datetime="Fri, 29 Nov 2024 09:09:33 &#43;0100"
                     class="no-wrap">
-                    Fri, 20 Dec 2024 07:49:48 &#43;0100</relative-time>
+                    Fri, 29 Nov 2024 09:09:33 &#43;0100</relative-time>
                   
                 </div>
               </div>
@@ -293,7 +293,8 @@ Your Name:Your Email:Your Message:Send Message
       width: 100%;
     }
   }
-</style></article>
+</style>
+</article>
               </div>
             </div>
           </div>
@@ -311,8 +312,8 @@ Your Name:Your Email:Your Message:Send Message
 <script src='http://localhost:1313/js/gitalk.min.js'></script>
 <script>
   const gitalk = new Gitalk({
-    clientID: '{{ getenv \u0027GITALK_CLIENT_ID\u0027 }}',
-    clientSecret: '{{ getenv \u0027GITALK_CLIENT_SECRET\u0027 }}',
+    clientID: '$GITALK_CLIENT_ID',
+    clientSecret: '$GITALK_CLIENT_SECRET',
     repo: 'NebelNite.github.io',
     owner: 'NebelNite',
     admin: ['NebelNite'],
